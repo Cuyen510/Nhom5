@@ -63,7 +63,7 @@ class Piece:
 
         win.blit(drawThis, (x, y))
 
-        '''if self.selected and self.color == color:  # Remove false to draw dots
+        '''if self.selected and self.color == color:  
             moves = self.move_list
 
             for move in moves:
